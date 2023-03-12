@@ -1,0 +1,172 @@
+.top{
+    
+    width: 100%;
+    background-color: brown;
+    opacity: .3;
+    text-align: center;
+    /* margin: -8px -7px 10px -10px; */
+    position: absolute; top: 0px; left: 0px;
+}
+
+.head{
+    font-size: 50px;
+    font-family: Verdana;
+    color: white;
+}
+
+.subhead{
+    font-size: 20px;
+    font-family: fantasy;
+    color: white;
+    float: right;
+    padding-top: 20px;
+    padding-right: 10px;
+    
+}
+
+/* 針對top類別中的a屬性 */
+a.homepage{
+    float: left;
+    color: white;
+    padding-left: 15px;
+    padding-top: 20px;
+    text-decoration: none;
+}
+
+a.hotpro{
+    float: left;
+    color: white;
+    padding-left: 15px;
+    padding-top: 20px;
+    text-decoration: none;
+}
+
+a.aboutus{
+    float: left;
+    color: white;
+    padding-left: 15px;
+    padding-top: 20px;
+    text-decoration: none;
+}
+ 
+
+.top a:hover, .top a:active{
+    font-weight: bold;
+    color: white;
+    text-decoration: underline;
+}
+
+/*============= index ==================*/
+.recommend{
+    margin-top: 100px;
+    margin-left: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    color: grey;
+}
+
+.PKfight
+{
+    margin-left: auto;
+    margin-right: auto; 
+    
+}
+
+a.yahooNews
+{
+    display: block;
+    margin-left: 160px;
+    text-decoration: none;
+}
+
+a.yahooNews:hover
+{
+    color: darkorange;
+    font-weight: bold;
+    
+}
+
+.choose1>h2
+{
+    display: block;
+    margin-top: 20px;    
+}
+
+.OMG
+{
+    margin-left: 170px;
+}
+/*============= products left ==================*/
+
+.leftcontent{
+    margin-top: 100px;
+    margin-left: 20px;
+}
+
+.box{
+    width: 300px;
+    height: 400px;
+    border: 2px solid gray;
+    border-radius: 2%;
+    padding: 8px;
+}
+
+.style1{
+    color: darkcyan;
+    
+}
+
+
+.style2{
+    color: blueviolet;
+    margin-top: 5px;
+    
+}
+
+.style3{
+    color: coral;
+    margin-top: 5px;
+}
+
+h2,h3{
+    border-bottom: 2px solid gray;
+    margin-top: -1px;
+}
+
+.leftcontent p{
+    margin-top: -5px;
+}
+
+.founder{
+    width: 300px;
+    height: 400px;
+    border: 2px solid gray;
+    border-radius: 2%;
+    padding: 5px;
+    margin-top: 100px;
+    margin-left: 20px;
+}
+
+.founder>span{
+    font-size: 50px;
+    color: darkcyan;
+    position: relative;
+    left: 40px;
+} 
+
+a.return{
+    text-decoration: none;
+}
+
+a.return:hover{
+    font-weight: bolder;
+}
+
+/* 聯絡我們區塊 */
+span.contactus{
+    font-size: 30px;
+    font-weight: bold;
+    color: firebrick;
+    
+}
+
